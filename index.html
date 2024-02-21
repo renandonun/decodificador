@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Decodificador de texto</h1>
+    </header>
+    <main class="container">
+        <div id="container__left">
+            <textarea id="container__input" rows="5" placeholder="Digite seu texto"></textarea>
+            <p><img src="assets/exclamation.png" alt="Exclamação"> Apenas letras minúsculas e sem acento.</p>
+            <div class="container__buttons">
+                <button onclick="criptografar()" id="btn_criptografar">Criptografar</button>
+                <button onclick="descriptografar()" id="btn_descriptografar">Descriptografar</button>
+            </div>
+
+        </div>
+
+        <div id="container__right">
+            <img id="image" src="assets/High quality products 1 1.svg" alt="Pessoa olhando um diamante com uma lupa.">
+            <textarea id="container__output" rows="5" placeholder="Nenhuma mensagem encontrada"></textarea>
+            <p id="msg">Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <button onclick="copiar()" id="btnCopiar">Copiar</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Este site foi desenvolvido por <a href="https://www.linkedin.com/in/renandonun/">Renan Lima</a> </p>
+    </footer>
+
+</body>
+
+</html>
